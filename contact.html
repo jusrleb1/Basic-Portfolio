@@ -26,16 +26,18 @@
 			<section>
 				<div class="sec-header">
 					<h2>Contact</h2>
+				</div> 
+				<div id="ContactForm">
+					<form name="contact-form" action="MAILTO:justinrleblanc@yahoo.com" method="post" enctype="text/plain">
+	  					<p class="form-text">Name</p><br>
+	  					<input type="text" name="fullname" value="John Smith"><br>
+	  					<p class="form-text">Email</p><br>
+	  					<input type="email" name="email" value="example@gmail.com"><br>
+	  					<p class="form-text">Message</p><br>
+	  					<textarea name="message" rows="10" cols="30" maxlength="200"></textarea><br><br>
+	  					<input type="submit" value="Send">
+					</form>
 				</div>
-				<form name="contact-form" action="MAILTO:justinrleblanc@yahoo.com" method="post" enctype="text/plain">
-  					<p class="form-text">Name</p><br>
-  					<input type="text" name="fullname" value="John Smith"><br>
-  					<p class="form-text">Email</p><br>
-  					<input type="email" name="email" value="example@gmail.com"><br>
-  					<p class="form-text">Message</p><br>
-  					<textarea name="message" rows="10" cols="30" maxlength="200"></textarea><br><br>
-  					<input type="submit" value="Send">
-				</form>
 			</section>
 			<aside>
 				<div class="aside-header">
@@ -47,9 +49,11 @@
 					<a href="http://stackoverflow.com/users/6227711/jusrleb1" target="_blank"><img id="img-stack" src="assets/images/stackoverflow_icon.png" alt="stack overflow"></a>
 				</div>
 			</aside>
-			<footer>
-				<p>&copy; Copyright 2016 Justin Ryan LeBlanc</p>
-			</footer>
 		</main>
+		<footer>
+			<div id="footer">
+				<p>&copy; Copyright 2016 Justin Ryan LeBlanc</p>
+			</div>
+		</footer>
 	</body>
 </html>
